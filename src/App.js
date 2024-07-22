@@ -9,14 +9,14 @@ const App = () => {
   const [itemToEdit, setItemToEdit] = useState(null);
 
   useEffect(() => {
-    // Cargar datos desde localStorage al montar el componente
+   
     const storedData = JSON.parse(localStorage.getItem('valorantData'));
     console.log('Datos cargados desde localStorage:', storedData);
     if (storedData) setData(storedData);
   }, []);
 
   useEffect(() => {
-    // Guardar datos en localStorage cada vez que los datos cambian
+    
     console.log('Guardando datos en localStorage:', data);
     localStorage.setItem('valorantData', JSON.stringify(data));
   }, [data]);
