@@ -1,0 +1,169 @@
+body {
+  background-color: #121212; /* Dark background */
+  color: #E0E0E0; /* Light gray text */
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  background-color: #D32F2F; /* Red */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.navbar-brand {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navbar-brand:hover {
+  color: #FFCDD2; /* Light red */
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 40px;
+  padding: 40px;
+  background: #1E1E1E; /* Slightly lighter dark */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.form-container {
+  width: 45%;
+}
+
+.image-container {
+  width: 50%;
+  text-align: center;
+}
+
+.buy-menu-image {
+  width: 100%; /* Make the image larger */
+  height: auto;
+  border: 2px solid #FF5252; /* Bright red */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.list-container {
+  width: 100%;
+  background-color: #1E1E1E; /* Slightly lighter dark */
+  padding: 20px;
+  border: 1px solid #FF5252; /* Bright red */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #FF5252; /* Bright red */
+}
+
+.table th {
+  background-color: #424242; /* Dark gray */
+}
+
+.table tbody tr:hover {
+  background-color: #333333; /* Darker gray */
+}
+
+.form-control {
+  background-color: #333333; /* Darker gray */
+  color: #E0E0E0; /* Light gray text */
+  border: 1px solid #FF5252; /* Bright red */
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background-color: #D32F2F; /* Red */
+  border-color: #D32F2F;
+  color: white;
+}
+
+.btn-warning {
+  background-color: #FFEB3B; /* Yellow */
+  border-color: #FFEB3B;
+  color: black;
+}
+
+.btn-danger {
+  background-color: #C62828; /* Dark red */
+  border-color: #C62828;
+  color: white;
+}
+
+.btn-success {
+  background-color: #388E3C; /* Green */
+  border-color: #388E3C;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #D32F2F; /* Red */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #FFEB3B; /* Yellow */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
